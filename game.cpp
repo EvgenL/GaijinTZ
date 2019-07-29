@@ -103,6 +103,8 @@ void spawn_ball(unsigned x, unsigned y, float v_x, float v_y)
 void spawn_ball()
 {
 	spawn_ball(sv_width / 2, sv_height / 2, -200.0f, -200.0f);
+	spawn_ball(sv_width / 2, sv_height / 2, -300.0f, -100.0f);
+	spawn_ball(sv_width / 2, sv_height / 2, 200.0f, 200.0f);
 }
 
 void spawn_platform()
